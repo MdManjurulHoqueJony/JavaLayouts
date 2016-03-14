@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd"
+    android:columnCount="3"
+    android:rowCount="2"
+    android:useDefaultMargins="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:background="#edf"
+        android:text="R0C0"
+        android:layout_gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!--android:layout_margin="10dp"-->
+    <!--<Space> </Space>-->
+    <TextView
+        android:id="@+id/textView11"
+        android:background="#efd"
+        android:text="R0C1"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:background="#def"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="R0C2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView13"
+
+        android:background="#dfe"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="R1C0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:background="#fed"
+        android:layout_rowSpan="2"
+        android:gravity="fill"
+        android:text="R1C1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:background="#fde"
+        android:text="R1C2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</GridLayout>

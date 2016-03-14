@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Java Layouts</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook">facebook</string>
+    <string name="hint">World\'s Largest Social Network</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="save_login">Save Login</string>
+    <string name="suggestion">Need an account? \n Sign up using your phone</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="check_me">Check Me</string>
+    <string name="switch_text">Switch</string>
+    <string name="off_text">Make it Black</string>
+    <string name="on_text">Make it White</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="next">Next</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="text_customization1">This is the Text need to be Customized !</string>
+</resources>
